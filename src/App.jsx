@@ -9,6 +9,9 @@ import GenSatu from './components/Generations/Gen1'
 import GenDua from './components/Generations/Gen2'
 import GenTiga from './components/Generations/Gen3'
 import GenEmpat from './components/Generations/Gen4'
+import Home from './components/Home'
+import Search from './components/Home/Search'
+import CardInfo from './components/Home/Card-info'
 
 
 const App = () => {
@@ -22,6 +25,9 @@ const App = () => {
     <GenDua/>
     <GenTiga/>
     <GenEmpat/>
+    <Home/>
+    <Search/>
+    <CardInfo/>
     
     
     </>
