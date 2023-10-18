@@ -12,6 +12,11 @@ import GenEmpat from './components/Generations/Gen4'
 import Home from './components/Home'
 import Search from './components/Home/Search'
 import CardInfo from './components/Home/Card-info'
+import Evolution from './components/Home/Card-info/Evolution'
+import TypeEffect from './components/Home/Card-info/Type-Effect'
+import LogoDua from './components/Home/Card-info/Logo'
+
+
 
 
 const App = () => {
@@ -28,6 +33,9 @@ const App = () => {
     <Home/>
     <Search/>
     <CardInfo/>
+    <Evolution/>
+    <TypeEffect/>
+    <LogoDua/>
     
     
     </>
