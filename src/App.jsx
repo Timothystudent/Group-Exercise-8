@@ -15,6 +15,7 @@ import CardInfo from './components/Home/Card-info'
 import Evolution from './components/Home/Card-info/Evolution'
 import TypeEffect from './components/Home/Card-info/Type-Effect'
 import LogoDua from './components/Home/Card-info/Logo'
+import Footer from './components/Footer'
 
 
 
@@ -36,6 +37,7 @@ const App = () => {
     <Evolution/>
     <TypeEffect/>
     <LogoDua/>
+    <Footer/>
     
     
     </>
