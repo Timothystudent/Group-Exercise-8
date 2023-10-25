@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/Header'
 import Home from './components/Home'
 import Footer from './components/Footer'
+import Logo from './components/Logo'
 
 
 
@@ -13,9 +14,10 @@ const App = () => {
   return (
     <>
 
-    <Header/>
-    <Home/>
-    <Footer/>
+    <Header 
+    title="Header"/>
+    <Home />
+    <Footer />
     
     
     </>

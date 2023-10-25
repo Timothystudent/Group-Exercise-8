@@ -1,11 +1,12 @@
 import Logo from "../Logo";
 import Generations from "../Generations";
 
-const Header = () => {
+const Header = ({title}) => {
     return(
         <>
-        <h1>Header</h1>
-        <Logo/>
+        <h1>{title}</h1>
+        <Logo 
+        title="LogosSS"/>
         <Generations/>
 
         </>

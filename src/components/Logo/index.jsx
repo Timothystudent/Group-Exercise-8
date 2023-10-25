@@ -1,5 +1,12 @@
-const Logo = ()=>{
-    return <h2>Logo</h2>
+const Logo = (props)=>{
+    return (
+    <div>
+        
+    <h2>{props.title}</h2>
+
+    </div>
+
+    )
 }
 
-export default Logo
+export default Logo;
