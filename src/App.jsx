@@ -13,7 +13,8 @@ const App = () => {
   return (
     <>
 
-    <Header/>
+    <Header
+    title="Headerr"/>
     <Home/>
     <Footer/>
     
