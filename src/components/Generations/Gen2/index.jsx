@@ -1,5 +1,12 @@
-const GenDua = () => {
-    return <h3>Gen2</h3>;
-};
+const GenDua = (props)=>{
+    return (
+    <div>
+        
+    <h2>{props.title}</h2>
 
-export default GenDua
+    </div>
+
+    )
+}
+
+export default GenDua;

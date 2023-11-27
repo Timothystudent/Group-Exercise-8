@@ -7,11 +7,15 @@ const Generations = () => {
     return(
         <>
         <h2>Generations</h2>
-        <GenSatu/>
-        <GenDua/>
-        <GenTiga/>
-        <GenEmpat/>
-        
+        <GenSatu
+        title="Gen 1"/>
+        <GenDua
+        title="Gen 2"/>
+        <GenTiga
+        title="Gen 3"/>
+        <GenEmpat
+        title="Gen 4"/>
+
         
         </>
     )

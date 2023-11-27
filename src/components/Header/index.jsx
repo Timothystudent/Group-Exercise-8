@@ -6,7 +6,7 @@ const Header = ({title}) => {
         <>
         <h1>{title}</h1>
         <Logo
-        title="Logoo"/>
+        title="Logo"/>
         <Generations/>
 
         </>
