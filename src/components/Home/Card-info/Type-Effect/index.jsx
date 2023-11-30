@@ -1,5 +1,5 @@
-const TypeEffect = ()=>{
-    return <h3>Type-Effect</h3>
+const TypeEffect = (props)=>{
+    return <h3>{props.title}</h3>
 }
 
 export default TypeEffect
