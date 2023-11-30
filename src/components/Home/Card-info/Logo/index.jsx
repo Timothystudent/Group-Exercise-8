@@ -1,5 +1,5 @@
-const LogoDua = ()=>{
-    return <h3>Logo</h3>
+const LogoDua = (props)=>{
+    return <h3>{props.title}</h3>
 }
 
 export default LogoDua

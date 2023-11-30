@@ -1,5 +1,5 @@
-const Evolution = ()=>{
-    return <h3>Evolution</h3>
+const Evolution = (props)=>{
+    return <h3>{props.title}</h3>
 }
 
 export default Evolution
