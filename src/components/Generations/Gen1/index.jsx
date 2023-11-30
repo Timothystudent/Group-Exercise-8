@@ -1,5 +1,12 @@
-const GenSatu = () => {
-    return <h3>Gen1</h3>;
-};
+const GenSatu = (props)=>{
+    return (
+    <div>
+        
+    <h2>{props.title}</h2>
 
-export default GenSatu
+    </div>
+
+    )
+}
+
+export default GenSatu;

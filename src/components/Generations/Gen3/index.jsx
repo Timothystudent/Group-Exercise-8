@@ -1,5 +1,12 @@
-const GenTiga = () => {
-    return <h3>Gen3</h3>;
-};
+const GenTiga = (props)=>{
+    return (
+    <div>
+        
+    <h2>{props.title}</h2>
 
-export default GenTiga
+    </div>
+
+    )
+}
+
+export default GenTiga;

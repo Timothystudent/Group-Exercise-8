@@ -1,5 +1,12 @@
-const GenEmpat = () => {
-    return <h3>Gen4</h3>;
-};
+const GenEmpat = (props)=>{
+    return (
+    <div>
+        
+    <h2>{props.title}</h2>
 
-export default GenEmpat
+    </div>
+
+    )
+}
+
+export default GenEmpat;
